@@ -9,6 +9,10 @@
  * Author URI:        https://tobier.de
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+    die( '' );
+}
+
 require "vendor/autoload.php";
 
 use MySimpleComposerPlugin\Class_ModifingHeader;

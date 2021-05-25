@@ -3,6 +3,9 @@
 
 namespace MySimpleComposerPlugin\Footer;
 
+if ( ! defined( 'ABSPATH' ) ) {
+    die( '' );
+}
 
 class Class_ModifingFooter {
     public function __construct(){
