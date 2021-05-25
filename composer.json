@@ -1,0 +1,19 @@
+{
+    "name": "tobier/myplugin",
+    "description": "Simple WordPress Plugin with Composer and Autoload",
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3"
+    },
+    "authors": [
+        {
+            "name": "Tobier",
+            "email": "mail@tobier.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MySimpleComposerPlugin\\" : "src/"
+        }
+    }
+}
